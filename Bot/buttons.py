@@ -1,7 +1,5 @@
 import re
 
-from telegram import Update, InlineKeyboardMarkup, InlineKeyboardButton
-
 from Bot.decorator import checkuser, chattype
 from Bot.database import db
 from Bot.database.models import Users

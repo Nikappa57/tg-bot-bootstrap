@@ -1,5 +1,4 @@
-from telegram import Update, InlineKeyboardMarkup, InlineKeyboardButton
-from telegram.ext.dispatcher import run_async
+from telegram import InlineKeyboardMarkup, InlineKeyboardButton
 
 from Bot.decorator import chattype, checkuser
 from Bot.database.models import Users
