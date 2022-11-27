@@ -12,6 +12,7 @@ from Bot.errors import unknown
 from Bot.buttons import button
 from Bot.inlinemode import inline_mode
 
+
 basedir = os.path.abspath(os.path.dirname(__file__))
 load_dotenv(os.path.join(basedir, '.env'))
 

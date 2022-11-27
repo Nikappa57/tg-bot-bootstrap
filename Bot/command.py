@@ -17,8 +17,6 @@ def start(update, context, currentuser):
 
 
 # admin #
-
-
 @chattype.private
 @checkuser.check(adminrequired=True)
 @checkuser.user_arg
@@ -31,7 +29,6 @@ def ban(update, context, currentuser, user):
     )
 
 
-
 @chattype.private
 @checkuser.check(adminrequired=True)
 @checkuser.user_arg
@@ -42,7 +39,6 @@ def unban(update, context, currentuser, user):
     update.message.reply_text(
         'User unban with success.'
     )
-
 
 
 @chattype.private
@@ -64,7 +60,6 @@ def admin(update, context, currentuser, user):
     )
 
 
-
 @chattype.private
 @checkuser.check(adminrequired=True)
 @checkuser.user_arg
@@ -77,7 +72,6 @@ def unadmin(update, context, currentuser, user):
     )
 
 
-
 @chattype.private
 @checkuser.check(adminrequired=True)
 @checkuser.user_arg
@@ -85,4 +79,3 @@ def info(update, context, currentuser, user):
     update.message.reply_text(
         str(user)
     )
-    
