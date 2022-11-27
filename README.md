@@ -18,11 +18,11 @@ ban, unban, add or remove admin, users list and user info
 git clone https://github.com/Nikappa57/tg-bot-bootstrap.git
 ```
 2. Install requirements
-```
+```console
 pip install -r requirements
 ```
 or
-```
+```console
 pipenv install
 ```
 Create `.env` with your bot token 
@@ -46,3 +46,14 @@ Check if the user is new, if he is banned, if he has changed his name and userna
 IMPORTANT TO PLACE IT ON ALL CONTROLS AS FIRST DECORATOR
 
 `adminrequired=True` Check if the user is admin, if not send an error message in chat `Bot.errors.admin_required_error`
+
+----
+
+```python
+@user_arg
+```
+Serves in all commands where you need to edit/recall another user
+Supports the syntax `"/command chat_id"` and `"/command @username"`
+Also supports `reply_to_message`
+
+
