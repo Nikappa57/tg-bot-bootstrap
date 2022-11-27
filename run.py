@@ -39,8 +39,6 @@ if __name__ == "__main__":
     # Inline Mode #
     dispatcher.add_handler(InlineQueryHandler(inline_mode))
 
-
-
     updater.start_polling()
     logging.basicConfig(format='%(asctime)s - %(name)s - %(levelname)s - %(message)s',
                         level=logging.INFO)
