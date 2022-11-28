@@ -7,6 +7,7 @@ A simple start template to create your telegram bots
 ## Features
 - basic **commands**
 ban, unban, add or remove admin, users list and user info
+- an instance of the user in each function
 - **error** message functions
 - ready for **buttons** and **inline mode**
 - a base **database** already connected
@@ -66,3 +67,9 @@ Also supports `reply_to_message`
 ```
 Useful for restricting the function only to groups or private chat
 
+## Where I used it
+
+- [account-shop-bot](https://github.com/Nikappa57/account-shop-bot.git)
+- [tg-duel-bot](https://github.com/Nikappa57/tg-duel-bot)
+
+- [ABS-Scanner](https://github.com/Nikappa57/ABS-Scanner/tree/main/Api%20ABStool%20Bot)
