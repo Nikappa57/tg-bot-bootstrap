@@ -25,6 +25,7 @@ pip install -r requirements
 or
 ```console
 pipenv install
+pipenv shell
 ```
 Create `.env` with your bot token 
 ```
